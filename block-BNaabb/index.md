@@ -1,6 +1,6 @@
 writeCode
 
-Create a basic http server in `stream.js`
+Create a basic http server in `stream.js`.
 
 - add a listener on port 3456
 - send text data from postman using `POST` request on `/` route.
