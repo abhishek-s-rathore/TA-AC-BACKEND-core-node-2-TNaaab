@@ -10,10 +10,9 @@ function handleRequest(req, res) {
     store = store + chunk;
   });
   req.on('end', () => {
-    console.log(store);
+    res.write(store);
+    res.end();
   });
-
-  res.end(JSON.stringify(store));
 }
 
 server.listen(3456, 'localhost', () => {
