@@ -15,7 +15,7 @@ const path = require('path');
 let server = http.createServer(handleRequest);
 
 function handleRequest(req, res) {
-  let store = ``;
+  var store = ``;
   req.on('data', (chunk) => {
     store += chunk;
   });
