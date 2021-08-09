@@ -8,7 +8,7 @@ Desktop
     - client(dir)
       - index.js
     - server(dir)
-      - app.js
+      - server.js
 
 You are currently in server.js
 
